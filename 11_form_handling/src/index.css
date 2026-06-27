@@ -1,0 +1,19 @@
+html,
+body{
+  height: 100%;
+  width: 100%;
+
+}
+
+input{
+  height: 27px;
+  width: 200px;
+  margin: 20px;
+  padding: 5px;
+}
+
+button{
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+}
