@@ -68,8 +68,8 @@ const copyTask = [...task];
          
          return <div key={idx} className='h-52 w-40 p-4 text-black bg-cover items-start justify-start rounded-2xl bg-[url("https://imgs.search.brave.com/tnpoElOZJ6CyUrU4cdC9v2UtoTpYva61MCegxmBan0o/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90ZW1w/bGF0ZS5jYW52YS5j/b20vRUFHR054dWU3/X1kvMS8wLzExMzF3/LVVsWlNtRGcwRHNJ/LmpwZw")]'>
           <div>
-          <h3 className='leading-tight text-xl font-bold'>{elem.title}</h3>
-          <p className='text-gray-600 leading-tight font-medium mt-2'>{elem.details}</p>
+          <h3 className='leading-tight text-lg font-bold'>{elem.title}</h3>
+          <p className='text-gray-600 leading-tight text-sm font-medium mt-2'>{elem.details}</p>
           </div>
           <button onClick={()=>{
             deleteNote(idx)
